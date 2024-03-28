@@ -30,7 +30,7 @@ function Register(){
         {
             navigate("/");
         }
-    },[]);
+    },[navigate]);
 
     return(
         <div className="flex justify-center h-screen items-center bg-primary">
