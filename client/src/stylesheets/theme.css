@@ -1,0 +1,40 @@
+iroot{
+    --color-primary: #002E2A;
+    --color-secondary: #e6b412;
+}
+.bg-primary{
+    background-color: #002E2A;
+}
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+.bg-error{
+    background-color: #ff0000;
+}
+.bg-warning{
+    background-color: #a2840e;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.text-primary{
+    color: var(--color-primary) !important;
+}
+.text-secondary{
+    color: var(--color-secondary);
+}
+.text-black{
+    color: #000;
+}
+.text-white{
+    color: #fff;
+}
+.border-primary{
+    border-color: var(--color-primary);
+}
+.border-secondary{
+    border-color: var(--color-secondary);
+}
